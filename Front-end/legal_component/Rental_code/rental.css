@@ -1,0 +1,153 @@
+.main-background{
+  background-image: url('main-logo.jpeg');
+  background-size: cover; 
+  background-attachment: fixed; 
+}
+/* Form Container */
+.form-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color:#F4E0CB;
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  animation: fadeIn 2s forwards;
+  
+}
+input[type='date']{
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #dddddd;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+  font-size: 16px;
+  color: #333333;
+  transition: border-color 0.3s ease;
+
+}
+.login-icon{
+  padding-left: 260px;
+}
+#aligning-text{
+  padding-left: 270px;
+}
+/* Form Title */
+.form-container h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333333;
+  font-size: 28px;
+}
+
+/* Form Rows */
+.form-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+/* Form Columns */
+.form-col {
+  flex: 1;
+  margin-right: 20px; /* Adjust as needed */
+}
+
+.form-col:last-child {
+  margin-right: 0;
+}
+
+/* Labels */
+label {
+  display: block;
+  margin-bottom: 10px;
+  color: #555555;
+  font-size: 16px;
+}
+
+/* Input Fields */
+input[type="text"] {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #dddddd;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+  font-size: 16px;
+  color: #333333;
+  transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus {
+  border-color: #B28947;
+  outline: none;
+}
+.keep-it-middle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* Submit Button */
+
+  button {
+      width: 390px;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      background-color: #B28947;
+      color: #fff;
+      cursor: pointer;
+    }
+    
+    button:hover {
+      background-color: #B28947;
+    }
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.kalam-light,
+.kalam-regular,
+.kalam-bold {
+font-family: "Kalam", cursive;
+}
+
+hr {
+  border: none;
+  height: 3px; /* Adjust thickness as needed */
+  margin: 20px 0; /* Adjust margin as needed */
+  background-image: repeating-linear-gradient(to right, #B28947, #B28947 10px, transparent 5px, transparent 15px);
+}
+img{
+  width: 100px; /* Adjust the size as needed */
+  height: 100px; /* Adjust the size as needed */
+}
+
+.rotate {
+  width: 200px; /* Adjust the size as needed */
+  height: 200px; /* Adjust the size as needed */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: rotate 3s infinite linear;
+}
+
+@keyframes rotate {
+  from {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
