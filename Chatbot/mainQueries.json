@@ -1,0 +1,137 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi there",
+        "How are you",
+        "Is anyone there?",
+        "Hey",
+        "Hola",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hello",
+        "Good to see you again",
+        "Hi there, how can I help?"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+
+        "Nice chatting to you, bye",
+        "Till next time"
+      ],
+      "responses": [
+        "See you!",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Awesome, thanks",
+        "Thanks for helping me"
+      ],
+      "responses": ["My pleasure", "You're Welcome"],
+      "context": [""]
+    },
+    {
+      "tag": "query1",
+      "patterns": ["Is property registration a must?"],
+      "responses": [
+        "Under the various provisions of the Registration Act, 1908, each time a property changes hands, it must be registered in the name of the new owner.  According to the Act, documents that are drafted to ‘create, declare, assign, limit or extinguish’ any right, title or interest of the value of Rs 100 or more, in an immovable property, must be registered."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "query2",
+      "patterns": ["What are all the charges for property registration? "],
+      "responses": [
+        "At the time of registration, the buyer has to pay stamp duty and registration charges. While stamp duty varies from state to state, property registration typically costs 1% of the transaction value. In some states like Haryana and Maharashtra, there is also a flat fee for property registration."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "query3",
+      "patterns": ["Do women buyers get a discount in registration charges?"],
+      "responses": [
+        "While women buyers enjoy discounts in stamp duty across states, no rebate is provided in case of registration charges. In Delhi, for example, women buyers have to pay only 4% as stamp duty, as compared to the 6% that men have to pay for property registration. However, both of them have to pay a 1% registration charge."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "query4",
+      "patterns": [
+        "Should the seller/buyer be present at the time of registration?"
+      ],
+      "responses": [
+        "The buyer and the seller along with two witnesses each, should be present at the sub-registrar’s office at the time of registration. If the buyer or the seller is an NRI and cannot be present in person, then, their legal representatives holding a power of attorney have to be present."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "query5",
+      "patterns": [
+        "How much time does it take for the documents to get registered?"
+      ],
+      "responses": [
+        "It would take nearly two weeks for the registration process to be completed, after which you can collect the documents from the sub-registrar’s office. You will also get a notification on your registered mobile number, once the documents are ready for collection."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "query6",
+      "patterns": ["What if I do not register the property?"],
+      "responses": [
+        "As unregistered properties hold no legal validity, the owner, in spite of having taken possession of the property, runs the risk of losing the property.  Also, an unregistered sale deed will not be admissible as evidence in the court of law."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "query7",
+      "patterns": ["Can I register my property online?"],
+      "responses": [
+        "Ofcourse! with this Application, you can able able to create a Legal Document, and then you need to reach your district Oath Commisioner office for Stamp paper printing, and final Signing Process"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "query8",
+      "patterns": ["What if there are false statements made in the documents?"],
+      "responses": [
+        "If a buyer ‘intentionally makes any false statements, presents a false copy or translation of a document or a map or plan or attempts to falsely impersonate other people’, then, it is a punishable offence. Such a person could face imprisonment for up to seven years or a fine or both. This is prescribed under Section 82 of the Registration Act."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "query9",
+      "patterns": ["What property documents need not be registered?"],
+      "responses": [
+        "Land granted by the government, Property purchased fomr a civil or a revenue-officer at a public auction."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "query10",
+      "patterns": [
+        "How much time does it take for the documents to get registered?"
+      ],
+      "responses": [
+        "it generally takes approximately 2 weeks for the property registration process to complete. After the completion of the entire process, you can collect the documents fomr the sub-registrars office."
+      ],
+      "context": [""]
+    }
+  ]
+}
