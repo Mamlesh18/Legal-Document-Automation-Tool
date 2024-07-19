@@ -10,20 +10,11 @@ import Realsale from './legal_component/abortion/real-sale';
 import DummyMains from './legal_component/main/dummy-main';
 import Adoption from './legal_component/real-adoption/real-ado-react';
 
-
-
-
-
-
-
-
-
 function App() {
   
   return (
     <Router>
       <Routes>
-
       <Route path="/" element={<DummyMains />} />3
         <Route path="/main_react" element={<Mains />} />
         <Route path="/rental_react" element={<Rental />} />

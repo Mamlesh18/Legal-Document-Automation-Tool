@@ -28,7 +28,8 @@ def update_document(city,state,date,landlordname,landlordaddress1,lordaddresslin
         xxxxsquarefeet,leaseterm,leasestartdate,onemonthnotice,monthlyrentalintextwords,startingmetereading,
         rentaldeposititextwords,item1,item2,item3):
     # Download the document from the URL
-    document_url = "https://docs.google.com/document/d/11YwG6ZmYC4HxZziR4z_6BOCJiG60zaGC/export?format=docx"
+    document_url = "https://docs.google.com/document/d/10uUedusfVfjgl15LNeXSn6Cosh7-4S8d/export?format=docx"
+   
     response = requests.get(document_url)
     # Check if the request was successful
     if response.status_code == 200:
@@ -174,7 +175,7 @@ def update_document_Divorce(pet1name,pet1age,pet1occupation,pet1address,pet1mobi
 
 
     # Download the document from the URL
-    document_url = "https://docs.google.com/document/d/17mowU44wAX-zj36DktZCwfHwEYeZpjTW/export?format=docx"
+    document_url = "https://docs.google.com/document/d/1VfzQThWR0Kfw-jqd-ys_wzb_OlzKENXU/export?format=docx"
     response = requests.get(document_url)
     
     # Check if the request was successful
@@ -315,7 +316,7 @@ def update_document_Sale(date,month,year,vendorname,vendorfathername,vendorrelig
 
 
     # Download the document from the URL
-    document_url = "https://docs.google.com/document/d/1-m7i0DWCaEmxkbiK3ps7QQvE2qtfomCW/export?format=docx"
+    document_url = "https://docs.google.com/document/d/1Q2yvGW9i0C0nW-o7UGKO6oquOkP-vXgu/export?format=docx"
     response = requests.get(document_url)
     
     # Check if the request was successful
@@ -523,7 +524,7 @@ def update_document_Adoption(casenumber,caseyear,childname,childdob,childgender,
 
 
     # Download the document from the URL
-    document_url = "https://docs.google.com/document/d/1iQo1vZit2T6uyE3EZzITiXlgnlNtI-Sc/export?format=docx"
+    document_url = "https://docs.google.com/document/d/1Ks9idQYdFmV7av99ApTwLsciLJde0GG2/export?format=docx"
     response = requests.get(document_url)
     
     # Check if the request was successful
